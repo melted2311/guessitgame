@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+
+}
+
+img {
+	pointer-events: none;
+	position: absolute;
+	width: 55%;
+	height: 90%;
+	margin-left: -28%;
+	z-index: -1;
+}
+
+.failure, .pulse {
+	width: 50%;
+	margin: 7% 25%;
+	color: #FF413F;
+	font-size: 35px;
+}
+
+.success {
+	width: 50%;
+	margin: 7% 25%;
+	color: lightgreen;
+	font-size: 35px;
+}
